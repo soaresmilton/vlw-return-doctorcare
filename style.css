@@ -1,7 +1,7 @@
 * {
   margin: 0;
-  box-sizing: border-box;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -15,22 +15,27 @@
 body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
-
-  text-align: center;
 }
 
-header {
-  width: 37.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 4.1rem;
+/*======== REUSABLE CLASSES ========*/
+.container {
+  width: 1120px;
+  margin: 0 auto;
 }
 
-h4 {
+.heat-text {
   font-size: 1.4rem;
   color: var(--primary-color);
   margin-bottom: 1.6rem;
 }
+
+/* header {
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.1rem;
+} */
+
 
 h1 {
   font-size: 3.4rem;
@@ -70,6 +75,12 @@ button {
   justify-content: center;
   gap: 1.6rem;
 
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
+
+  cursor: pointer;
+}
+
+#footer {
+  background: var(--primary-color);
 }
